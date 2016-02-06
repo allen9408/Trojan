@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sat Feb 06 23:13:53 2016
+# Process ID: 12760
+# Log file: D:/Code/Trojan/AES_T100/AES_T100.runs/impl_1/top.vdi
+# Journal file: D:/Code/Trojan/AES_T100/AES_T100.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace

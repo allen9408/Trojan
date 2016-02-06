@@ -1,0 +1,49 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sat Feb 06 23:26:39 2016
+# Process ID: 3276
+# Log file: D:/Code/Trojan/AES_T100/AES_T100.runs/impl_1/top.vdi
+# Journal file: D:/Code/Trojan/AES_T100/AES_T100.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source top.tcl -notrace
+Command: open_checkpoint top_routed.dcp
+INFO: [Project 1-479] Netlist was created with Vivado 2014.2
+Loading clock regions from D:/programmefiles/vivado/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z020/ClockRegion.xml
+Loading clock buffers from D:/programmefiles/vivado/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z020/ClockBuffers.xml
+Loading clock placement rules from D:/programmefiles/vivado/Vivado/2014.2/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from D:/programmefiles/vivado/Vivado/2014.2/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from D:/programmefiles/vivado/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z020/clg484/Package.xml
+Loading io standards from D:/programmefiles/vivado/Vivado/2014.2/data\./parts/xilinx/zynq/IOStandards.xml
+Parsing XDC File [D:/Code/Trojan/AES_T100/AES_T100.runs/impl_1/.Xil/Vivado-3276-Allens-TF/dcp/top.xdc]
+Finished Parsing XDC File [D:/Code/Trojan/AES_T100/AES_T100.runs/impl_1/.Xil/Vivado-3276-Allens-TF/dcp/top.xdc]
+Reading XDEF placement.
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 452.809 ; gain = 0.000
+Restoring placement.
+Restored 3 out of 3 XDEF sites from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Project 1-484] Checkpoint was created with build 932637
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command write_bitstream
+INFO: [Drc 23-27] Running DRC with 2 threads
+INFO: [Vivado 12-3199] DRC finished with 0 Errors, 2 Warnings
+INFO: [Vivado 12-3200] Please refer to the DRC report (report_drc) for more information.
+Loading data files...
+Loading site data...
+Loading route data...
+Processing options...
+Creating bitmap...
+Creating bitstream...
+Writing bitstream ./top.bit...
+INFO: [Vivado 12-1842] Bitgen Completed Successfully.
+INFO: [Project 1-118] WebTalk data collection is enabled (User setting is ON. Install Setting is ON.).
+INFO: [Common 17-185] WebTalk report has not been sent to Xilinx. Please check your network and proxy settings.
+INFO: [Common 17-83] Releasing license: Implementation
+write_bitstream: Time (s): cpu = 00:00:32 ; elapsed = 00:00:37 . Memory (MB): peak = 796.395 ; gain = 343.586
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 06 23:27:22 2016...
