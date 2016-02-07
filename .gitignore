@@ -1,1 +1,12 @@
-Vivado/*/*.runs/
+*.wdf
+*.xml
+*.rst
+*.pb
+*.js
+*.log
+*.sh
+*.rpt
+*.dcp
+*.html
+*.sh
+*.jou
