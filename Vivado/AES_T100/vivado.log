@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:30:22 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Sun Feb 07 01:17:24 2016
+# Process ID: 15160
+# Log file: D:/Code/Trojan/Vivado/AES_T100/vivado.log
+# Journal file: D:/Code/Trojan/Vivado/AES_T100\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:\Code\Trojan\Vivado\AES_T100\AES_T100.xpr}
+INFO: [Project 1-313] Project file moved from 'D:/Code/Trojan/AES_T100' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/table.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/round.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/lfsr.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/TSC.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/bufferout.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/bufferin.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/aes_128.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/top.v]
+reset_run synth_1
+launch_runs impl_1
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/table.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/round.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/lfsr.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/TSC.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/bufferout.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/bufferin.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/aes_128.v]
+WARNING: [filemgmt 20-1763] Vivado Synthesis ignores library specification for Verilog or SystemVerilog files. [D:/Code/Trojan/Vivado/AES_T100/AES_T100.srcs/sources_1/imports/TjIn/top.v]
+[Sun Feb 07 01:19:36 2016] Launched synth_1...
+Run output will be captured here: D:/Code/Trojan/Vivado/AES_T100/AES_T100.runs/synth_1/runme.log
+[Sun Feb 07 01:19:36 2016] Launched impl_1...
+Run output will be captured here: D:/Code/Trojan/Vivado/AES_T100/AES_T100.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Feb 07 01:21:26 2016...
