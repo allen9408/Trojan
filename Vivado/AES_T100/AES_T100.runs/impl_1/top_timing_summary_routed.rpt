@@ -1,7 +1,7 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:30:22 MDT 2014
-| Date         : Sat Feb 06 23:13:43 2016
+| Date         : Sun Feb 07 12:25:25 2016
 | Host         : Allens-TF running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -warn_on_violation -file top_timing_summary_routed.rpt -pb top_timing_summary_routed.pb
 | Design       : top
@@ -140,6 +140,10 @@ All user specified timing constraints are met.
 | Clock Summary
 | -------------
 ------------------------------------------------------------------------------------------------
+
+Clock  Waveform(ns)       Period(ns)      Frequency(MHz)
+-----  ------------       ----------      --------------
+clk    {0.000 5.000}      10.000          100.000         
 
 
 ------------------------------------------------------------------------------------------------

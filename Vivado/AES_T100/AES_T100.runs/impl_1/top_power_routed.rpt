@@ -1,16 +1,16 @@
 Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:30:22 MDT 2014
-| Date             : Sat Feb 06 23:13:43 2016
+| Date             : Sun Feb 07 12:25:25 2016
 | Host             : Allens-TF running 64-bit major release  (build 9200)
-| Command          : 
+| Command          : report_power -file top_power_routed.rpt -pb top_power_summary_routed.pb
 | Design           : top
 | Device           : xc7z020clg484-1
 | Design State     : Routed
 | Grade            : commercial
 | Process          : typical
 | Characterization : Production
----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 
 Power Report
 
@@ -49,6 +49,7 @@ Table of Contents
 +--------------+-----------+----------+-----------+-----------------+
 | On-Chip      | Power (W) | Used     | Available | Utilization (%) |
 +--------------+-----------+----------+-----------+-----------------+
+| Clocks       |     0.000 |        1 |       --- |             --- |
 | Slice Logic  |     0.000 |        1 |       --- |             --- |
 |   Others     |     0.000 |        1 |       --- |             --- |
 | I/O          |     0.000 |        3 |       200 |            1.50 |

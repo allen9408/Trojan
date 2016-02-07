@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright (c) 2001-2013 Xilinx Inc, All rights reserved -->
 
-<Project Version="7" Minor="1" Path="D:/Code/Trojan/AES_T100/AES_T100.xpr">
+<Project Version="7" Minor="1" Path="D:/Code/Trojan/Vivado/AES_T100/AES_T100.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="7955bc77b2d7403585539f9149a6087f"/>
@@ -19,7 +19,7 @@
       <Filter Type="Srcs"/>
       <File Path="$PSRCDIR/sources_1/imports/TjIn/table.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/毕业设计/AES-T100/src/TjIn/table.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/src/TjIn/table.v"/>
           <Attr Name="ImportTime" Val="1350386446"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -28,7 +28,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/TjIn/round.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/毕业设计/AES-T100/src/TjIn/round.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/src/TjIn/round.v"/>
           <Attr Name="ImportTime" Val="1350386446"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -37,7 +37,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/TjIn/lfsr.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/毕业设计/AES-T100/src/TjIn/lfsr.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/src/TjIn/lfsr.v"/>
           <Attr Name="ImportTime" Val="1363722003"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -46,7 +46,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/TjIn/TSC.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/毕业设计/AES-T100/src/TjIn/TSC.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/src/TjIn/TSC.v"/>
           <Attr Name="ImportTime" Val="1363721913"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -55,7 +55,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/TjIn/bufferout.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/毕业设计/AES-T100/src/TjIn/bufferout.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/src/TjIn/bufferout.v"/>
           <Attr Name="ImportTime" Val="1452180513"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -64,7 +64,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/TjIn/bufferin.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/毕业设计/AES-T100/src/TjIn/bufferin.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/src/TjIn/bufferin.v"/>
           <Attr Name="ImportTime" Val="1452180503"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -73,7 +73,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/TjIn/aes_128.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/毕业设计/AES-T100/src/TjIn/aes_128.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/src/TjIn/aes_128.v"/>
           <Attr Name="ImportTime" Val="1362590425"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -82,7 +82,7 @@
       </File>
       <File Path="$PSRCDIR/sources_1/imports/TjIn/top.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/毕业设计/AES-T100/src/TjIn/top.v"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/src/TjIn/top.v"/>
           <Attr Name="ImportTime" Val="1452188540"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -99,13 +99,14 @@
       <Filter Type="Constrs"/>
       <File Path="$PSRCDIR/constrs_1/imports/AES-T100/t100.xdc">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../study/毕业设计/AES-T100/t100.xdc"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/t100.xdc"/>
           <Attr Name="ImportTime" Val="1454768531"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
       <Config>
+        <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/imports/AES-T100/t100.xdc"/>
         <Option Name="ConstrsType" Val="XDC"/>
       </Config>
     </FileSet>

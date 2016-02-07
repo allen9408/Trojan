@@ -51,8 +51,8 @@ set rc [catch {
   set_param gui.test TreeTableDev
   open_checkpoint top_routed.dcp
   write_bitstream -force top.bit 
-  if { [file exists D:/Code/Trojan/AES_T100/AES_T100.runs/synth_1/top.hwdef] } {
-    catch { write_sysdef -hwdef D:/Code/Trojan/AES_T100/AES_T100.runs/synth_1/top.hwdef -bitfile top.bit -meminfo top_bd.bmm -file top.sysdef }
+  if { [file exists D:/Code/Trojan/Vivado/AES_T100/AES_T100.runs/synth_1/top.hwdef] } {
+    catch { write_sysdef -hwdef D:/Code/Trojan/Vivado/AES_T100/AES_T100.runs/synth_1/top.hwdef -bitfile top.bit -meminfo top_bd.bmm -file top.sysdef }
   }
   close_msg_db -file write_bitstream.pb
 } RESULT]
