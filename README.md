@@ -3,8 +3,25 @@
 #### <center>Developer: Allen Ni</center>
 #### <center>School of Microelectronic</center>
 
+## File structure  
+    Trojan  
+    |---Vivado  
+    |---|---AES  
+    |---|---AES_T100
+    |---|---  ...  
+    |---|---run.bat  
+    |---|---clear.bat  
+    |---Matlab  
 
-### Version 1.0 (*Feb 7,2015*)
+##  How to run Vivado projects (*win xp/7/8/10, Vivado 14.2*)  
+1. Open CMD or Cygwin  
+2. CD to "your path"/Trojan/Vivado  
+3. Run projects (example: ./run.bat AES)
+4. Wait for synthesis-->implememtation-->write bitstream, complete   
+
+
+##  Versions
+### V_1.0 (*Feb 7,2015*)
 **What's new:**  
     1. Completion of AES algorithm and AES-T100 Trojan algorithm  
     2. Constraint file can be uesd in all trojan projects  
