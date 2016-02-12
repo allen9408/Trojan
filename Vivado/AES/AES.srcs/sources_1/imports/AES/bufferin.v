@@ -1,7 +1,7 @@
 module bufferin(
   input         clk,
-  input [64:0]  statein,
-  input [64:0]  keyin,
+  input [63:0]  statein,
+  input [63:0]  keyin,
   output reg [127:0] stateout,
   output reg [127:0] keyout
   );

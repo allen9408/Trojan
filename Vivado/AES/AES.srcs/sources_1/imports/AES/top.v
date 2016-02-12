@@ -2,14 +2,13 @@
 `include "bufferout.v"
 module top(
   input clk,
-  output res);
+  output [7:0] res);
   reg [63:0]  state;
   reg [63:0]  key;
   reg [63:0] result;
   
   wire [63:0] statew;
   wire [63:0] keyw;
-  wire [63:0] resultw;
 
   wire [127:0] statebi;
   wire [127:0] keybi;
@@ -24,8 +23,6 @@ module top(
   
   assign statew = state;
   assign keyw = key;
-  assign resultw = result;
-  assign res = 1;
 
   bufferin bi(.clk(clk)
     ,.statein(statew)
@@ -40,7 +37,7 @@ module top(
 
   bufferout bo(.clk(clk)
     ,.resultin(out)
-    ,.resultout(resultw));
+    ,.resultout(res));
 
 endmodule
 
