@@ -1,3 +1,6 @@
 Vivado/*/*.cache/
 Vivado/*/*.hw/
 Vivado/*/*.runs/
+Vivado/*/*.ioplanning/
+*.jou
+*.log
