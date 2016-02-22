@@ -14,7 +14,7 @@ if not exist .\"%1" goto error
 
 ::clear
 cd .\"%1"
-del .\*.v
+del *.v *.xdc
 del *.log *.jou *.tmp
 rd /s /q .Xil
 cd ..
