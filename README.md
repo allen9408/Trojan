@@ -35,7 +35,7 @@
 
 **Coming Soon:**  
     1. More types of trojan projects  
-    2. Trojan delay information
+    2. Trojan delay information  
     3. Matlab PCA algorithm  
 
 ##  Archives
