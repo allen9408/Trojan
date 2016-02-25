@@ -11,7 +11,8 @@
     |---|---  ...  
     |---|---run.bat  
     |---|---clear.bat  
-    |---Matlab  
+    |---Matlab
+    |---|---EucDist.m  
 
 ##  How to run Vivado projects (*win xp/7/8/10, Vivado 14.2*)  
 1. Open CMD or Cygwin  
@@ -21,7 +22,24 @@
 
 
 ##  Versions
-### V_1.0 (*Feb 7,2015*)
+### V_1.1 (*Feb 26,2016*)
+**What's new:**  
+    1. Complete Matlab EUC distance algorithm  
+    2. Complete scripts of Vivado  
+    3. Fix clock problems  
+    4. Fix constraints problems  
+
+**Known Issues:**  
+    1. Cannot monitor real-time information of power  
+    2. AES-T900 race condition  
+
+**Coming Soon:**  
+    1. More types of trojan projects  
+    2. Trojan delay information
+    3. Matlab PCA algorithm  
+
+##  Archives
+### V_1.0 (*Feb 7,2016*)
 **What's new:**  
     1. Completion of AES algorithm and AES-T100 Trojan algorithm  
     2. Constraint file can be uesd in all trojan projects  
