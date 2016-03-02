@@ -1,5 +1,5 @@
 `include "bufferin.v"
-`include "bufferout.v"
+
 module top(
   input clk,
   output [7:0] res);
@@ -35,9 +35,12 @@ module top(
     ,.key(keybi)
     ,.out(out));
 
-  bufferout bo(.clk(clk)
-    ,.resultin(out)
-    ,.resultout(res));
+  // bufferout bo(.clk(clk)
+  //   ,.resultin(out)
+  //   ,.resultout(res));
 
+  timer t(.clk(clk)
+    ,.result(out)
+    ,.delay(res));
 endmodule
 
