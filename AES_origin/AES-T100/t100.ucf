@@ -1,0 +1,12 @@
+###############################################
+# AES-T100 trojan UCF file
+# File name: t100.ucf
+# Author: Allen Ni
+# Data: 16-2-6 22:14:48
+# Version: 1.0
+################################################
+
+# input clk
+NET clk          LOC = Y9   | IOSTANDARD=LVCMOS33;  # "GCLK"
+# input rst
+NET rst          LOC = R18  | IOSTANDARD=LVCMOS18;  # "BTNR"
