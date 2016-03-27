@@ -24,10 +24,16 @@ module top(
     input [127:0] state,
     input [127:0] key,
     output [127:0] out,
-	 output [63:0] Capacitance
+	output [63:0] Capacitance,
+    output [15:0] delay
     );
 
-	aes_128 AES  (clk, state, key, out); 
-	TSC Trojan (rst, clk, key, Capacitance); 
+	wire clkf;
+	wire clks;
+
+	clk_div(clk, clks, clks);
+	aes_128 AES  (clks, state, key, out); 
+	TSC Trojan (rst, clkf, key, Capacitance);
+	timer(clkf, rst, out, delay); 
 
 endmodule

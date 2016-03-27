@@ -6,7 +6,7 @@
 <Project Version="7" Minor="1" Path="D:/Code/Trojan/Vivado/AES_T100_tb/AES_T100_tb.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
-    <Option Name="Id" Val="fb7ee6136e81409d9d97ae093f0a8974"/>
+    <Option Name="Id" Val="de2308537ffd4dfd81b875c821fdd34c"/>
     <Option Name="Part" Val="xc7z020clg484-1"/>
     <Option Name="CompiledLibDir" Val="$PCACHEDIR/compile_simlib"/>
     <Option Name="SimulatorLanguage" Val="Verilog"/>
@@ -20,7 +20,7 @@
       <File Path="$PSRCDIR/sources_1/imports/AES_T100_tb/table.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/table.v"/>
-          <Attr Name="ImportTime" Val="1350386446"/>
+          <Attr Name="ImportTime" Val="1350411646"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -29,7 +29,7 @@
       <File Path="$PSRCDIR/sources_1/imports/AES_T100_tb/round.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/round.v"/>
-          <Attr Name="ImportTime" Val="1350386446"/>
+          <Attr Name="ImportTime" Val="1350411646"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -38,7 +38,7 @@
       <File Path="$PSRCDIR/sources_1/imports/AES_T100_tb/lfsr.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/lfsr.v"/>
-          <Attr Name="ImportTime" Val="1363722003"/>
+          <Attr Name="ImportTime" Val="1363747203"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -47,7 +47,25 @@
       <File Path="$PSRCDIR/sources_1/imports/AES_T100_tb/TSC.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/TSC.v"/>
-          <Attr Name="ImportTime" Val="1363721913"/>
+          <Attr Name="ImportTime" Val="1363747113"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/AES_T100_tb/timer.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/timer.v"/>
+          <Attr Name="ImportTime" Val="1459092410"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/AES_T100_tb/clk_div.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/clk_div.v"/>
+          <Attr Name="ImportTime" Val="1459091690"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -56,7 +74,7 @@
       <File Path="$PSRCDIR/sources_1/imports/AES_T100_tb/aes_128.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/aes_128.v"/>
-          <Attr Name="ImportTime" Val="1362590425"/>
+          <Attr Name="ImportTime" Val="1362619225"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -65,7 +83,16 @@
       <File Path="$PSRCDIR/sources_1/imports/AES_T100_tb/top.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/top.v"/>
-          <Attr Name="ImportTime" Val="1363800258"/>
+          <Attr Name="ImportTime" Val="1459095528"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/AES_T100_tb/top_tb.v">
+        <FileInfo>
+          <Attr Name="ImportPath" Val="$PPRDIR/top_tb.v"/>
+          <Attr Name="ImportTime" Val="1457049051"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -73,7 +100,7 @@
       </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
-        <Option Name="TopModule" Val="top"/>
+        <Option Name="TopModule" Val="top_tb"/>
         <Option Name="TopAutoSet" Val="TRUE"/>
       </Config>
     </FileSet>
@@ -84,19 +111,12 @@
       </Config>
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1">
-      <File Path="$PSRCDIR/sim_1/imports/AES_T100_tb/top_tb.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/top_tb.v"/>
-          <Attr Name="ImportTime" Val="1457017420"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
+      <Filter Type="Srcs"/>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="top_tb"/>
         <Option Name="TopLib" Val="xil_defaultlib"/>
+        <Option Name="TopAutoSet" Val="TRUE"/>
         <Option Name="SrcSet" Val="sources_1"/>
       </Config>
     </FileSet>
@@ -104,17 +124,13 @@
   <Runs Version="1" Minor="9">
     <Run Id="synth_1" Type="Ft3:Synth" SrcSet="sources_1" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Synthesis Defaults" State="current">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2014"/>
         <Step Id="synth_design"/>
       </Strategy>
     </Run>
     <Run Id="impl_1" Type="Ft2:EntireDesign" Part="xc7z020clg484-1" ConstrsSet="constrs_1" Description="Vivado Implementation Defaults" State="current" SynthRun="synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014">
-          <Desc>Vivado Implementation Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2014"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
