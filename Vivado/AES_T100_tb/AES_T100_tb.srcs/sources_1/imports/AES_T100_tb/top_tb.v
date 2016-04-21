@@ -9,18 +9,20 @@ reg [127:0] state;
 reg [127:0] key;
 
 // Outputs
-wire [127:0] out;
+wire [127:0] result;
 wire [63:0]	 Capacitance;
+wire [15:0] delay;
 
-always #2 clk = ~clk;
+always #1 clk = ~clk;
 
-top t(
+top tpb(
 	.clk(clk)
 	,.rst(rst)
 	,.state(state)
 	,.key(key)
-	,.out(out)
+	,.result(result)
 	,.Capacitance(Capacitance)
+	,.delay(delay)
 );
 
 initial begin

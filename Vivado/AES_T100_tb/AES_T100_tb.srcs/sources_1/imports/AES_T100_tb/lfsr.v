@@ -12,7 +12,7 @@ module lfsr_counter (
 	assign lfsr = lfsr_stream; 
 	assign d0 = lfsr_stream[15] ^ lfsr_stream[11] ^ lfsr_stream[7] ^ lfsr_stream[0]; 
 
-	always @(posedge clk)
+	always @(posedge clk or posedge rst)
 		if (rst == 1) begin
 			lfsr_stream <= "10011001100110011001";
 		end else begin

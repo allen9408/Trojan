@@ -28,4 +28,4 @@ set_property IOSTANDARD LVCMOS33 [get_ports res[6]]
 set_property PACKAGE_PIN U14 [get_ports res[7]]
 set_property IOSTANDARD LVCMOS33 [get_ports res[7]]
 
-create_clock -period 10.000 -name clk -waveform {0.000 5.000} [get_ports clk]
+create_clock -period 1000000000.000 -name clk -waveform {0.000 5.000} [get_ports clk]
