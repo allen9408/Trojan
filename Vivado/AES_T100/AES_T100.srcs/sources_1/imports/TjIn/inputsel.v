@@ -735,7 +735,317 @@ always @(posedge clk or negedge rst) begin
 			state 	<= 128'h3;
 			key 	<= 128'h3;
 		end
-
+		8'd180: begin
+			state 	<= 128'h0;
+			key 	<= 128'h0;
+		end
+		8'd181: begin
+			state 	<= 128'h0;
+			key 	<= 128'h1;
+		end
+		8'd182: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd183: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd184: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd185: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd186: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd187: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd188: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd189: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd190: begin
+			state 	<= 128'h0;
+			key 	<= 128'h0;
+		end
+		8'd191: begin
+			state 	<= 128'h0;
+			key 	<= 128'h1;
+		end
+		8'd192: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd193: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd194: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd195: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd196: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd197: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd198: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd199: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd200: begin
+			state 	<= 128'h0;
+			key 	<= 128'h0;
+		end
+		8'd201: begin
+			state 	<= 128'h0;
+			key 	<= 128'h1;
+		end
+		8'd202: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd203: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd204: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd205: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd206: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd207: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd208: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd209: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd210: begin
+			state 	<= 128'h0;
+			key 	<= 128'h0;
+		end
+		8'd211: begin
+			state 	<= 128'h0;
+			key 	<= 128'h1;
+		end
+		8'd212: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd213: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd214: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd215: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd216: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd217: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd218: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd219: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd220: begin
+			state 	<= 128'h0;
+			key 	<= 128'h0;
+		end
+		8'd221: begin
+			state 	<= 128'h0;
+			key 	<= 128'h1;
+		end
+		8'd222: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd223: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd224: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd225: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd226: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd227: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd228: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd229: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd230: begin
+			state 	<= 128'h0;
+			key 	<= 128'h0;
+		end
+		8'd231: begin
+			state 	<= 128'h0;
+			key 	<= 128'h1;
+		end
+		8'd232: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd233: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd234: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd235: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd236: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd237: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd238: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd239: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd240: begin
+			state 	<= 128'h0;
+			key 	<= 128'h0;
+		end
+		8'd241: begin
+			state 	<= 128'h0;
+			key 	<= 128'h1;
+		end
+		8'd242: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd243: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd244: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd245: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd246: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd247: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd248: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd249: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		8'd250: begin
+			state 	<= 128'h0;
+			key 	<= 128'h0;
+		end
+		8'd251: begin
+			state 	<= 128'h0;
+			key 	<= 128'h1;
+		end
+		8'd252: begin
+			state 	<= 128'h1;
+			key 	<= 128'h0;
+		end
+		8'd253: begin
+			state 	<= 128'h1;
+			key 	<= 128'h1;
+		end
+		8'd254: begin
+			state 	<= 128'h2;
+			key 	<= 128'h2;
+		end
+		8'd255: begin
+			state 	<= 128'h3;
+			key 	<= 128'h3;
+		end
+		default: begin
+			state	<= 128'h0;
+			key		<= 128'h0;
+		end
+	endcase
 
 	end
 end
+
+endmodule

@@ -53,19 +53,17 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/TjIn/bufferout.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/src/TjIn/bufferout.v"/>
-          <Attr Name="ImportTime" Val="1452180513"/>
+      <File Path="$PSRCDIR/sources_1/imports/TjIn/inputsel.v">
+        <FileInfo RelPath="inputsel.v">
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/TjIn/bufferin.v">
+      <File Path="$PSRCDIR/sources_1/imports/TjIn/bufferout.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/src/TjIn/bufferin.v"/>
-          <Attr Name="ImportTime" Val="1452180503"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../../../study/毕业设计/AES-T100/src/TjIn/bufferout.v"/>
+          <Attr Name="ImportTime" Val="1452180513"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
