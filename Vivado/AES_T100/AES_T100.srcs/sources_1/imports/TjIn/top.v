@@ -28,8 +28,6 @@ module top(
     reg [63:0] result;
 	wire [63:0] Capacitance;
 
-    wire [63:0] statew;
-    wire [63:0] keyw;
 
     wire [127:0] statebi;
     wire [127:0] keybi;
