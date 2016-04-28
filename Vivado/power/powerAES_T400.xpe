@@ -1,17 +1,17 @@
-<POWERDATA author="Vivado Power Analysis" dataVersion="2014.2" design="Xilinx Design" date="Mon Feb 22 19:51:39 2016">
+<POWERDATA author="Vivado Power Analysis" dataVersion="2014.2" design="Xilinx Design" date="Wed Apr 27 17:02:30 2016">
 	<ENVIRONMENT>
 		<DEVICE part="xc7z020" grade="commercial" package="clg484" speed="-1" process="typical" vid="No">
 		</DEVICE>
 		<VOLTAGESOURCES>
-			<SOURCE name="Vcco33" voltage="3.300000" icc="0.000000" iccq="0.001000" power="0.003300">
+			<SOURCE name="Vcco33" voltage="3.300000" icc="0.000878" iccq="0.001000" power="0.006197">
 			</SOURCE>
-			<SOURCE name="Vccbram" voltage="1.000000" icc="0.019173" iccq="0.001456" power="0.020629">
+			<SOURCE name="Vccbram" voltage="1.000000" icc="0.019404" iccq="0.001541" power="0.020945">
 			</SOURCE>
-			<SOURCE name="Vccint" voltage="1.000000" icc="0.215187" iccq="0.009281" power="0.224467">
+			<SOURCE name="Vccint" voltage="1.000000" icc="0.346298" iccq="0.009835" power="0.356134">
 			</SOURCE>
-			<SOURCE name="Vccaux" voltage="1.800000" icc="0.000000" iccq="0.018963" power="0.034133">
+			<SOURCE name="Vccaux" voltage="1.800000" icc="0.000114" iccq="0.019063" power="0.034518">
 			</SOURCE>
-			<SOURCE name="Vccpint" voltage="1.000000" icc="0.000000" iccq="0.017983" power="0.017983">
+			<SOURCE name="Vccpint" voltage="1.000000" icc="0.000000" iccq="0.018964" power="0.018964">
 			</SOURCE>
 			<SOURCE name="Vccpaux" voltage="1.800000" icc="0.000000" iccq="0.010330" power="0.018594">
 			</SOURCE>
@@ -46,29 +46,33 @@
 				</CLOCK>
 				<CLOCK name="clk_IBUF" freq="100.000001" belFanout="1" sliceFanout="1" leafs="0.000000" hrows="0.000000" power="0.000087" bufType="I/O">
 				</CLOCK>
-				<CLOCK name="clk_IBUF_BUFG" freq="100.000001" belFanout="2658" sliceFanout="946" leafs="52.000000" hrows="4.000000" power="0.015889" bufType="BUFG">
+				<CLOCK name="clk_IBUF_BUFG" freq="100.000001" belFanout="2666" sliceFanout="1049" leafs="64.000000" hrows="5.000000" power="0.018855" bufType="BUFG">
 				</CLOCK>
 			</BLOCKTYPE>
 			<BLOCKTYPE name="LOGIC">
-				<LOGIC clock="" clockFreq="0.000000" clockFreq2="0.000000" toggleRate="0.000000" toggleRate2="0.000000" totalRate="0.000000" name="Combinatorial" hierName="top/AES" writeRate="0.000000" enableRate="0.000000" fanout="2.001471" fanout2="0.000000" totalFanout="1361.000000" fanoutRate="0.000000" numNets="2164" extNets="680" luts="1704" logicCap="0" signalCap="280136.000000" power="0.000000">
+				<LOGIC clock="" clockFreq="125.199446" clockFreq2="134.834954" toggleRate="54.997421" toggleRate2="59.230093" totalRate="119289.406669" name="Combinatorial" hierName="top/AES" writeRate="0.000000" enableRate="0.000000" fanout="2.001464" fanout2="1.976672" totalFanout="1367.000000" fanoutRate="44385.932989" numNets="2169" extNets="683" luts="1706" logicCap="452263566" signalCap="280959.000000" power="0.027823">
 				</LOGIC>
-				<LOGIC clock="clk_IBUF_BUFG" clockFreq="100.000001" clockFreq2="100.000001" toggleRate="0.000000" toggleRate2="0.000000" totalRate="0.000000" name="clk_IBUF_BUFG" hierName="top/AES" writeRate="0.000000" enableRate="1.000000" fanout="1.779566" fanout2="0.000000" totalFanout="4424.000000" fanoutRate="0.000000" numNets="2486" extNets="2486" ffs="2486" logicCap="0" signalCap="1372473.000000" power="0.000000">
+				<LOGIC clock="clk_IBUF_BUFG" clockFreq="100.000001" clockFreq2="100.000001" toggleRate="40.304423" toggleRate2="45.385731" totalRate="100438.622648" name="clk_IBUF_BUFG" hierName="top/AES" writeRate="0.000000" enableRate="1.000000" fanout="1.779294" fanout2="1.788070" totalFanout="4434.000000" fanoutRate="89036.427644" numNets="2492" extNets="2492" ffs="2492" logicCap="99585001" signalCap="1407605.000000" power="0.002260">
 				</LOGIC>
-				<LOGIC clock="" clockFreq="0.276917" clockFreq2="1.229357" toggleRate="0.182055" toggleRate2="1.507539" totalRate="6.189876" name="Combinatorial" hierName="top/TSC" writeRate="0.000000" enableRate="0.000000" fanout="1.000000" fanout2="0.000000" totalFanout="6.000000" fanoutRate="0.000000" numNets="34" extNets="6" carry4s="7" luts="2" logicCap="606656" signalCap="0.000000" power="0.000001">
+				<LOGIC clock="" clockFreq="11.346095" clockFreq2="11.346095" toggleRate="12.067117" toggleRate2="13.674987" totalRate="410.281962" name="Combinatorial" hierName="top/TSC" writeRate="0.000000" enableRate="0.000000" fanout="1.000000" fanout2="1.000000" totalFanout="6.000000" fanoutRate="3.031845" numNets="34" extNets="6" carry4s="7" luts="2" logicCap="3847828" signalCap="0.000000" power="0.000017">
 				</LOGIC>
-				<LOGIC clock="clk_IBUF_BUFG" clockFreq="100.000001" clockFreq2="100.000001" toggleRate="0.103256" toggleRate2="1.258556" totalRate="2.684665" name="clk_IBUF_BUFG" hierName="top/TSC" writeRate="0.000000" enableRate="1.000000" fanout="1.192308" fanout2="1.000000" totalFanout="31.000000" fanoutRate="1.347029" numNets="26" extNets="26" ffs="26" logicCap="135000" signalCap="4907.000000" power="0.000000">
+				<LOGIC clock="clk_IBUF_BUFG" clockFreq="100.000001" clockFreq2="100.000001" toggleRate="14.943085" toggleRate2="14.943085" totalRate="388.520199" name="clk_IBUF_BUFG" hierName="top/TSC" writeRate="0.000000" enableRate="1.000000" fanout="1.192308" fanout2="1.192308" totalFanout="31.000000" fanoutRate="229.334614" numNets="26" extNets="26" ffs="26" logicCap="1170000" signalCap="5535.000000" power="0.000009">
 				</LOGIC>
-				<LOGIC clock="" clockFreq="11.718750" clockFreq2="11.718750" toggleRate="11.718750" toggleRate2="11.718750" totalRate="11.718750" name="Combinatorial" hierName="top/Tj_Trigger" writeRate="0.000000" enableRate="0.000000" fanout="26.000000" fanout2="26.000000" totalFanout="26.000000" fanoutRate="152.343751" numNets="1" extNets="1" luts="1" logicCap="336893" signalCap="890.000000" power="0.000002">
+				<LOGIC clock="" clockFreq="0.000000" clockFreq2="0.000000" toggleRate="0.000000" toggleRate2="0.000000" totalRate="0.000000" name="Combinatorial" hierName="top/Tj_Trigger" writeRate="0.000000" enableRate="0.000000" fanout="26.000000" fanout2="0.000000" totalFanout="26.000000" fanoutRate="0.000000" numNets="1" extNets="1" luts="1" logicCap="0" signalCap="1059.000000" power="0.000000">
 				</LOGIC>
-				<LOGIC clock="clk_IBUF_BUFG" clockFreq="100.000001" clockFreq2="100.000001" toggleRate="12.500000" toggleRate2="12.500000" totalRate="12.500000" name="clk_IBUF_BUFG" hierName="top/Tj_Trigger" writeRate="0.000000" enableRate="1.000000" fanout="1.000000" fanout2="1.000000" totalFanout="1.000000" fanoutRate="6.250000" numNets="1" extNets="1" ffs="1" logicCap="45000" signalCap="102.000000" power="0.000000">
+				<LOGIC clock="clk_IBUF_BUFG" clockFreq="100.000001" clockFreq2="100.000001" toggleRate="0.000000" toggleRate2="0.000000" totalRate="0.000000" name="clk_IBUF_BUFG" hierName="top/Tj_Trigger" writeRate="0.000000" enableRate="1.000000" fanout="1.000000" fanout2="0.000000" totalFanout="1.000000" fanoutRate="0.000000" numNets="1" extNets="1" ffs="1" logicCap="0" signalCap="109.000000" power="0.000000">
 				</LOGIC>
-				<LOGIC clock="clk_IBUF_BUFG" clockFreq="100.000001" clockFreq2="100.000001" toggleRate="0.000000" toggleRate2="0.000000" totalRate="0.000000" name="clk_IBUF_BUFG" hierName="top/bo" writeRate="0.000000" enableRate="1.000000" fanout="1.000000" fanout2="0.000000" totalFanout="2.000000" fanoutRate="0.000000" numNets="2" extNets="2" ffs="2" logicCap="0" signalCap="1076.000000" power="0.000000">
+				<LOGIC clock="" clockFreq="51.781655" clockFreq2="51.781655" toggleRate="47.501650" toggleRate2="47.501650" totalRate="380.013198" name="Combinatorial" hierName="top/bi" writeRate="0.000000" enableRate="0.000000" fanout="0.000000" fanout2="0.000000" totalFanout="0.000000" fanoutRate="0.000000" numNets="8" extNets="0" SMUX="3" luts="5" logicCap="1047512" signalCap="0.000000" power="0.000031">
+				</LOGIC>
+				<LOGIC clock="clk_IBUF_BUFG" clockFreq="100.000001" clockFreq2="100.000001" toggleRate="21.673208" toggleRate2="21.673208" totalRate="43.346417" name="clk_IBUF_BUFG" hierName="top/bi" writeRate="0.000000" enableRate="1.000000" fanout="1.500000" fanout2="1.500000" totalFanout="3.000000" fanoutRate="27.923209" numNets="2" extNets="2" ffs="2" logicCap="90000" signalCap="949.000000" power="0.000001">
+				</LOGIC>
+				<LOGIC clock="clk_IBUF_BUFG" clockFreq="100.000001" clockFreq2="100.000001" toggleRate="26.599036" toggleRate2="26.599036" totalRate="53.198072" name="clk_IBUF_BUFG" hierName="top/bo" writeRate="0.000000" enableRate="1.000000" fanout="1.000000" fanout2="1.000000" totalFanout="2.000000" fanoutRate="26.599036" numNets="2" extNets="2" ffs="2" logicCap="90000" signalCap="1805.000000" power="0.000001">
 				</LOGIC>
 			</BLOCKTYPE>
 			<BLOCKTYPE name="BRAM">
 				<MODULE name="clk_IBUF_BUFG" count="1">
 					<GROUPSUMMARY>
-						<BRAM name="clk_IBUF_BUFG" hierName="top/AES" mode="RAMB18" toggleRate="0.000000" power="0.000876" vccbram="0.000077" vccint="0.000799">
+						<BRAM name="clk_IBUF_BUFG" hierName="top/AES" mode="RAMB18" toggleRate="49.804688" power="0.001022" vccbram="0.000077" vccint="0.000945">
 							<RAMPORT name="A" clock="clk_IBUF_BUFG" clockFreq="100.000001" readWidth="18" writeWidth="18" enableRate="1.000000" writeMode="WRITE_FIRST" writeRate="0.000000">
 							</RAMPORT>
 							<RAMPORT name="B" clock="AES/rf/S4_3/S_3/&lt;const0&gt;" clockFreq="0.000000" readWidth="0" writeWidth="0" enableRate="0.000000" writeMode="WRITE_FIRST" writeRate="0.000000">
@@ -78,10 +82,10 @@
 				</MODULE>
 				<MODULE name="clk_IBUF_BUFG" count="142">
 					<GROUPSUMMARY>
-						<BRAM name="clk_IBUF_BUFG" hierName="top/AES" mode="RAMB18" toggleRate="0.000000" power="0.217334" vccbram="0.019096" vccint="0.198238">
-							<RAMPORT name="A" clock="clk_IBUF_BUFG" clockFreq="100.000001" readWidth="18" writeWidth="18" enableRate="0.873239" writeMode="WRITE_FIRST" writeRate="0.000000">
+						<BRAM name="clk_IBUF_BUFG" hierName="top/AES" mode="RAMB18" toggleRate="38.157297" power="0.254604" vccbram="0.019327" vccint="0.235277">
+							<RAMPORT name="A" clock="clk_IBUF_BUFG" clockFreq="100.000001" readWidth="18" writeWidth="18" enableRate="0.880282" writeMode="WRITE_FIRST" writeRate="0.000000">
 							</RAMPORT>
-							<RAMPORT name="B" clock="clk_IBUF_BUFG" clockFreq="100.000001" readWidth="18" writeWidth="0" enableRate="0.873239" writeMode="WRITE_FIRST" writeRate="0.000000">
+							<RAMPORT name="B" clock="clk_IBUF_BUFG" clockFreq="100.000001" readWidth="18" writeWidth="0" enableRate="0.887324" writeMode="WRITE_FIRST" writeRate="0.000000">
 							</RAMPORT>
 						</BRAM>
 					</GROUPSUMMARY>
@@ -94,15 +98,21 @@
 						</IO>
 					</GROUPSUMMARY>
 				</MODULE>
+				<MODULE name="num&lt;0:7&gt;" count="8">
+					<GROUPSUMMARY>
+						<IO name="num&lt;0:7&gt;" clock="" clockFreq="0.000000" ioStandard="LVCMOS33" bidis="0" inputs="8" outputs="0" signalRate="12.500000" toggleRate="12.500000" dataRate="Async" serdes="No" ioDelay="No" ibufLowPower="No" inTerm="NONE" outTerm="NONE" numHR="8" ibufDisable="0.000000" dcitermDisable="0.000000" vccInt="0.000032" vccAux="0.000000" vcco="0.000000" vccoCurrent="0.000000" extTerm="NONE">
+						</IO>
+					</GROUPSUMMARY>
+				</MODULE>
 				<MODULE name="res&lt;0:7&gt;" count="8">
 					<GROUPSUMMARY>
-						<IO name="res&lt;0:7&gt;" clock="" clockFreq="0.000000" ioStandard="LVCMOS33" bidis="0" inputs="0" outputs="8" signalRate="0.000000" toggleRate="0.000000" outputEnableRate="1.000000" outputLoad="0.000000" dataRate="Async" serdes="No" ioDelay="No" ibufLowPower="No" inTerm="NONE" outTerm="NONE" numHR="8" ibufDisable="0.000000" dcitermDisable="0.000000" vccInt="0.000000" vccAux="0.000000" vcco="0.000000" vccoCurrent="0.000000" extTerm="FP_VTT_50">
+						<IO name="res&lt;0:7&gt;" clock="" clockFreq="0.000000" ioStandard="LVCMOS33" bidis="0" inputs="0" outputs="8" signalRate="6.649759" toggleRate="6.649759" outputEnableRate="1.000000" outputLoad="0.000000" dataRate="Async" serdes="No" ioDelay="No" ibufLowPower="No" inTerm="NONE" outTerm="NONE" numHR="8" ibufDisable="0.000000" dcitermDisable="0.000000" vccInt="0.000000" vccAux="0.000205" vcco="0.002897" vccoCurrent="0.000878" extTerm="FP_VTT_50">
 						</IO>
 					</GROUPSUMMARY>
 				</MODULE>
 				<MODULE name="rst" count="1">
 					<GROUPSUMMARY>
-						<IO name="rst" clock="" clockFreq="0.000000" ioStandard="LVCMOS33" bidis="0" inputs="1" outputs="0" signalRate="12.500000" toggleRate="12.500000" dataRate="Async" serdes="No" ioDelay="No" ibufLowPower="No" inTerm="NONE" outTerm="NONE" numHR="1" ibufDisable="0.000000" dcitermDisable="0.000000" vccInt="0.000004" vccAux="0.000000" vcco="0.000000" vccoCurrent="0.000000" extTerm="NONE">
+						<IO name="rst" clock="" clockFreq="0.000000" ioStandard="LVCMOS33" bidis="0" inputs="1" outputs="0" signalRate="0.000000" toggleRate="0.000000" dataRate="Async" serdes="No" ioDelay="No" ibufLowPower="No" inTerm="NONE" outTerm="NONE" numHR="1" ibufDisable="0.000000" dcitermDisable="0.000000" vccInt="0.000000" vccAux="0.000000" vcco="0.000000" vccoCurrent="0.000000" extTerm="NONE">
 						</IO>
 					</GROUPSUMMARY>
 				</MODULE>
