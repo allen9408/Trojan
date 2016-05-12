@@ -1,27 +1,41 @@
 clear;
 clc;
 
-data = load('T600.log')
-P = zeros(6,100)
-T = zeros(1,100)
-count = 0;
+%Read files
+filedir = './power_result/'
+filelist = dir(filedir)
 
-for i = 1:1:100
-	for j = 1:1:6
-		count = count + 1
-		P(j,i) = data(count,1)
-	end
+P = zeros(1000, 45)
+T = zeros(1, 450)
+PP = zeros(10,45)
+count = 0
+num = 1
+for i = 3:1:47
+	filename = [filedir, filelist(i,1).name]
+	data = load(filename)
+    p(1:1000,num) = data(1:1000,1)
+	num = num + 1
+end
+count = 0
+for i = 1:1:450
+    col = fix(i/10) + 1
+    if col > 45
+        col = 45
+    end
+    for j = 1:1:10
+        count = count +1
+        PP(j,i) = p(count,col)
+    end
+    count = 0
 end
 
-T(1,1:6) = 1;
-T(1,7:100) = -1;
-
-net = newff(minmax(P),[5,1],{'tansig','purelin'});
+T(1,1:89) = 1;
+net = newff(minmax(PP),[7,1],{'tansig','purelin'});
 net.trainParam.show = 50;
 net.trainParam.lr = 0.05;
-net.trainParam.epochs = 300;
+net.trainParam.epochs = 500;
 net.trainParam.goal = 0.001;
-[net,tr] = train(net,P,T);
+[net,tr] = train(net,PP,T);
 
 net.iw{1,1}
 net.b{1}
@@ -29,4 +43,5 @@ net.b{1}
 net.lw{2,1}
 net.b{2}
 
-sim(net,P)
+Y=sim(net,PP)
+plot(PP,T,'+',PP,Y,'o') 
